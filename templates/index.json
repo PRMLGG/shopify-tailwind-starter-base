@@ -139,6 +139,10 @@
       "block_order": [
         "socialwidget_instafeed_base_widget_dddVRL"
       ],
+      "disabled": true,
+      "custom_css": [
+        "#social-widget-wrapper {background-color: #000;}"
+      ],
       "settings": {
         "include_margins": true
       }
