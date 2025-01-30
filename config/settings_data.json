@@ -105,11 +105,13 @@
     "badge_corner_radius": 10,
     "sale_badge_color_scheme": "scheme-5",
     "sold_out_badge_color_scheme": "scheme-3",
-    "social_facebook_link": "",
-    "social_instagram_link": "",
-    "social_youtube_link": "",
-    "social_tiktok_link": "",
-    "social_twitter_link": "",
+    "brand_headline": "",
+    "brand_image": "shopify://shop_images/NVOKE500.png",
+    "social_facebook_link": "https://www.facebook.com/profile.php?id=100092372592562",
+    "social_instagram_link": "https://www.instagram.com/nvoke.music/",
+    "social_youtube_link": "https://www.youtube.com/@RealNvokeMusic",
+    "social_tiktok_link": "https://www.tiktok.com/@nvoke.music",
+    "social_twitter_link": "https://x.com/Nvoke_Music",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
     "social_tumblr_link": "",
@@ -184,11 +186,11 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#005ffd",
+          "background": "#6117c1",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
-          "button_label": "#005ffd",
+          "button_label": "#6117c1",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
