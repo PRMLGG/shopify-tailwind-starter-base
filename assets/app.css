@@ -54,6 +54,10 @@
 .overflow-hidden {
   overflow: hidden;
 }
+.border {
+  border-style: var(--tw-border-style);
+  border-width: 1px;
+}
 .capitalize {
   text-transform: capitalize;
 }
@@ -99,6 +103,11 @@
   syntax: "*";
   inherits: false;
   initial-value: skewY(0);
+}
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
 }
 @property --tw-outline-style {
   syntax: "*";
