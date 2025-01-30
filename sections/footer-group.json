@@ -14,16 +14,15 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "footer-0": {
-          "type": "link_list",
+        "brand_information_4kkgGH": {
+          "type": "brand_information",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "show_social": true
           }
         }
       },
       "block_order": [
-        "footer-0"
+        "brand_information_4kkgGH"
       ],
       "settings": {
         "color_scheme": "scheme-4",
