@@ -43,6 +43,7 @@
         "text",
         "buttons_KXw96W"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/WEB_Banner01.jpg",
         "image_overlay_opacity": 0,
