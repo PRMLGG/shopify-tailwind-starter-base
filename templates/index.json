@@ -15,24 +15,24 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "i feel alive",
+            "heading": "ALIVE",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "coming out soon.",
+            "text": "OUT NOW ON SPOTIFY",
             "text_style": "body"
           }
         },
-        "button": {
+        "buttons_KXw96W": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
+            "button_label_1": "LISTEN NOW",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -41,7 +41,7 @@
       "block_order": [
         "heading",
         "text",
-        "button"
+        "buttons_KXw96W"
       ],
       "settings": {
         "image": "shopify://shop_images/WEB_Banner01.jpg",
