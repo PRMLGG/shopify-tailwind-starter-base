@@ -57,34 +57,13 @@
         "show_text_below": false
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "UPCOMING RELEASES",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
+    "custom_liquid_qTqRNJ": {
+      "type": "custom-liquid",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "custom_liquid": "",
         "color_scheme": "scheme-4",
-        "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 52
       }
     },
     "featured_collection": {
@@ -152,7 +131,7 @@
   },
   "order": [
     "image_banner",
-    "rich_text",
+    "custom_liquid_qTqRNJ",
     "featured_collection",
     "173820632485f87bb0",
     "multicolumn"
