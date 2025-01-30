@@ -58,6 +58,15 @@
         "show_text_below": false
       }
     },
+    "custom_liquid_zJkVB9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"nvokePlatforms\">\n<div class=\"nvokeSpotify\">\n</div>\n<div class=\"nvokeAppleMusic\">\n</div>\n<div class=\"nvokeSoundcloud\">\n<a href=\"\"><i class=\"fa-brands fa-soundcloud\"></i></a>\n</div>\n</div>",
+        "color_scheme": "scheme-4",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_with_text_6QjhjJ": {
       "type": "image-with-text",
       "blocks": {
@@ -169,6 +178,7 @@
   },
   "order": [
     "image_banner",
+    "custom_liquid_zJkVB9",
     "image_with_text_6QjhjJ",
     "featured_collection",
     "173820632485f87bb0",
