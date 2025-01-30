@@ -19,10 +19,17 @@
           "settings": {
             "show_social": true
           }
+        },
+        "brand_information_9Gd4CB": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
         }
       },
       "block_order": [
-        "brand_information_4kkgGH"
+        "brand_information_4kkgGH",
+        "brand_information_9Gd4CB"
       ],
       "settings": {
         "color_scheme": "scheme-4",
