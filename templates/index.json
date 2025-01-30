@@ -60,6 +60,14 @@
     "image_with_text_6QjhjJ": {
       "type": "image-with-text",
       "blocks": {
+        "caption_T7pKqb": {
+          "type": "caption",
+          "settings": {
+            "caption": "OUT NOW ON ALL PLATFORMS",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_LkDXyU": {
           "type": "heading",
           "settings": {
@@ -69,6 +77,7 @@
         }
       },
       "block_order": [
+        "caption_T7pKqb",
         "heading_LkDXyU"
       ],
       "custom_css": [
