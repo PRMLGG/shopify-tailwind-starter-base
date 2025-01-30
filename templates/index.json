@@ -57,13 +57,37 @@
         "show_text_below": false
       }
     },
-    "custom_liquid_qTqRNJ": {
-      "type": "custom-liquid",
+    "image_with_text_6QjhjJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_LkDXyU": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>ALIVE</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LkDXyU"
+      ],
+      "custom_css": [
+        ".global-media-settings {border: #00000000;}"
+      ],
       "settings": {
-        "custom_liquid": "",
-        "color_scheme": "scheme-4",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image": "shopify://shop_images/Bcolbyphoto-18824_1.png",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "featured_collection": {
@@ -131,7 +155,7 @@
   },
   "order": [
     "image_banner",
-    "custom_liquid_qTqRNJ",
+    "image_with_text_6QjhjJ",
     "featured_collection",
     "173820632485f87bb0",
     "multicolumn"
