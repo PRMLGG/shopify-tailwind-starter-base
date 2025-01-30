@@ -1,6 +1,9 @@
 /*! tailwindcss v4.0.1 | MIT License | https://tailwindcss.com */
 @tailwind base;
 @tailwind components;
+.absolute {
+  position: absolute;
+}
 .fixed {
   position: fixed;
 }
@@ -30,9 +33,6 @@
 }
 .hidden {
   display: none;
-}
-.inline-block {
-  display: inline-block;
 }
 .inline-flex {
   display: inline-flex;
