@@ -25,59 +25,59 @@
         padding-bottom: {{ section.settings.padding_bottom }}px;
       }
     }
-    .items-center {
+    .nitems-center {
       align-items: center;
   }
-    .flex-col {
+    .nflex-col {
       flex-direction: column;
   }
-    .flex {
+    .nflex {
       display: flex
   ;
   }
-    .mx-auto {
+    .nmx-auto {
       margin-left: auto;
       margin-right: auto;
   }
     @media (min-width: 1536px) {
-      .container {
+      .ncontainer {
           max-width: 1536px;
       }
   }
     @media (min-width: 1280px) {
-      .container {
+      .ncontainer {
           max-width: 1280px;
       }
   }
     @media (min-width: 1024px) {
-      .container {
+      .ncontainer {
           max-width: 1024px;
       }
   }
     @media (min-width: 768px) {
-      .container {
+      .ncontainer {
           max-width: 768px;
       }
   }
     @media (min-width: 640px) {
-      .container {
+      .ncontainer {
           max-width: 640px;
       }
   }
-    .container {
+    .ncontainer {
       width: 100%;
   }
-    .justify-center {
+    .njustify-center {
       justify-content: center;
   }
-    .flex {
+    .nflex {
       display: flex
   ;
   }
-    .mb-6 {
+    .nmb-6 {
       margin-bottom: 1.5rem;
   }
-    .text-2xl {
+    .ntext-2xl {
       font-size: 1.5rem;
       line-height: 2rem;
   }
@@ -185,14 +185,14 @@
                         <div class="rte">{{ settings.brand_description }}</div>
                       {%- endif -%}
                       {%- if block.settings.show_social and has_social_icons -%}
-                        <div class="container mx-auto flex flex-col items-center">
+                        <div class="ncontainer nmx-auto nflex nflex-col nitems-center">
                           <!-- Social Media Icons -->
-                          <div class="flex justify-center space-x-6 mb-6">
+                          <div class="nflex njustify-center nspace-x-6 nmb-6">
                             <!-- Spotify -->
                             <a
                               href="https://open.spotify.com/artist/5rG0oiVwWtu16Q6peEteLi?si=V-gTwa_gRsqsG2fo-vuu9Q"
                               target="_blank"
-                              class="text-2xl hover:text-green-500"
+                              class="ntext-2xl nhover:text-green-500"
                             >
                               <i class="fab fa-spotify"></i>
                             </a>
@@ -200,7 +200,7 @@
                             <a
                               href="https://soundcloud.com/novkethemusic"
                               target="_blank"
-                              class="text-2xl hover:text-orange-500"
+                              class="ntext-2xl nhover:text-orange-500"
                             >
                               <i class="fab fa-soundcloud"></i>
                             </a>
@@ -208,7 +208,7 @@
                             <a
                               href="https://music.apple.com/us/artist/nvoke/1650328680"
                               target="_blank"
-                              class="text-2xl hover:text-pink-500"
+                              class="ntext-2xl nhover:text-pink-500"
                             >
                               <i class="fab fa-apple"></i>
                             </a>
@@ -216,7 +216,7 @@
                             <a
                               href="https://www.tiktok.com/@nvoke.music"
                               target="_blank"
-                              class="text-2xl hover:text-black"
+                              class="ntext-2xl nhover:text-black"
                             >
                               <i class="fab fa-tiktok"></i>
                             </a>
@@ -224,7 +224,7 @@
                             <a
                               href="https://www.facebook.com/profile.php?id=100092372592562"
                               target="_blank"
-                              class="text-2xl hover:text-blue-600"
+                              class="ntext-2xl nhover:text-blue-600"
                             >
                               <i class="fab fa-facebook"></i>
                             </a>
@@ -232,7 +232,7 @@
                             <a
                               href="https://www.instagram.com/nvoke.music/"
                               target="_blank"
-                              class="text-2xl hover:text-purple-600"
+                              class="ntext-2xl nhover:text-purple-600"
                             >
                               <i class="fab fa-instagram"></i>
                             </a>
@@ -244,7 +244,7 @@
                             <a
                               href="https://www.youtube.com/@RealNvokeMusic"
                               target="_blank"
-                              class="text-2xl hover:text-red-600"
+                              class="ntext-2xl nhover:text-red-600"
                             >
                               <i class="fab fa-youtube"></i>
                             </a>
