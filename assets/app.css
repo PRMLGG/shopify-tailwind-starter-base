@@ -17,9 +17,6 @@
 .container {
   width: 100%;
 }
-.mx-auto {
-  margin-inline: auto;
-}
 .block {
   display: block;
 }
@@ -47,17 +44,8 @@
 .resize {
   resize: both;
 }
-.flex-col {
-  flex-direction: column;
-}
 .flex-wrap {
   flex-wrap: wrap;
-}
-.items-center {
-  align-items: center;
-}
-.justify-center {
-  justify-content: center;
 }
 .truncate {
   overflow: hidden;
