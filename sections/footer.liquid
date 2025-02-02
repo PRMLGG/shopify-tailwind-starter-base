@@ -129,7 +129,70 @@
                         <div class="rte">{{ settings.brand_description }}</div>
                       {%- endif -%}
                       {%- if block.settings.show_social and has_social_icons -%}
-                        {%- render 'social-icons', class: 'footer__list-social' -%}
+                        <div class="container mx-auto flex flex-col items-center">
+                          <!-- Social Media Icons -->
+                          <div class="flex justify-center space-x-6 mb-6">
+                            <!-- Spotify -->
+                            <a
+                              href="https://open.spotify.com/artist/5rG0oiVwWtu16Q6peEteLi?si=V-gTwa_gRsqsG2fo-vuu9Q"
+                              target="_blank"
+                              class="text-2xl hover:text-green-500"
+                            >
+                              <i class="fab fa-spotify"></i>
+                            </a>
+                            <!-- Soundcloud -->
+                            <a
+                              href="https://soundcloud.com/novkethemusic"
+                              target="_blank"
+                              class="text-2xl hover:text-orange-500"
+                            >
+                              <i class="fab fa-soundcloud"></i>
+                            </a>
+                            <!-- Apple Music -->
+                            <a
+                              href="https://music.apple.com/us/artist/nvoke/1650328680"
+                              target="_blank"
+                              class="text-2xl hover:text-pink-500"
+                            >
+                              <i class="fab fa-apple"></i>
+                            </a>
+                            <!-- TikTok -->
+                            <a
+                              href="https://www.tiktok.com/@nvoke.music"
+                              target="_blank"
+                              class="text-2xl hover:text-black"
+                            >
+                              <i class="fab fa-tiktok"></i>
+                            </a>
+                            <!-- Facebook -->
+                            <a
+                              href="https://www.facebook.com/profile.php?id=100092372592562"
+                              target="_blank"
+                              class="text-2xl hover:text-blue-600"
+                            >
+                              <i class="fab fa-facebook"></i>
+                            </a>
+                            <!-- Instagram -->
+                            <a
+                              href="https://www.instagram.com/nvoke.music/"
+                              target="_blank"
+                              class="text-2xl hover:text-purple-600"
+                            >
+                              <i class="fab fa-instagram"></i>
+                            </a>
+                            <!-- X (Twitter) -->
+                            <a href="https://x.com/Nvoke_Music" target="_blank" class="text-2xl hover:text-gray-800">
+                              <i class="fab fa-x-twitter"></i>
+                            </a>
+                            <!-- YouTube -->
+                            <a
+                              href="https://www.youtube.com/@RealNvokeMusic"
+                              target="_blank"
+                              class="text-2xl hover:text-red-600"
+                            >
+                              <i class="fab fa-youtube"></i>
+                            </a>
+                          </div>
                       {%- endif -%}
                     </div>
                   {%- when 'image' -%}
