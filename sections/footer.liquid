@@ -6,24 +6,80 @@
 {{ 'component-list-social.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  .footer {
-    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
-  }
-
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
     .footer {
-      margin-top: {{ section.settings.margin_top }}px;
+      margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
     }
 
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
+
+    @media screen and (min-width: 750px) {
+      .footer {
+        margin-top: {{ section.settings.margin_top }}px;
+      }
+
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+    .items-center {
+      align-items: center;
+  }
+    .flex-col {
+      flex-direction: column;
+  }
+    .flex {
+      display: flex
+  ;
+  }
+    .mx-auto {
+      margin-left: auto;
+      margin-right: auto;
+  }
+    @media (min-width: 1536px) {
+      .container {
+          max-width: 1536px;
+      }
+  }
+    @media (min-width: 1280px) {
+      .container {
+          max-width: 1280px;
+      }
+  }
+    @media (min-width: 1024px) {
+      .container {
+          max-width: 1024px;
+      }
+  }
+    @media (min-width: 768px) {
+      .container {
+          max-width: 768px;
+      }
+  }
+    @media (min-width: 640px) {
+      .container {
+          max-width: 640px;
+      }
+  }
+    .container {
+      width: 100%;
+  }
+    .justify-center {
+      justify-content: center;
+  }
+    .flex {
+      display: flex
+  ;
+  }
+    .mb-6 {
+      margin-bottom: 1.5rem;
+  }
+    .text-2xl {
+      font-size: 1.5rem;
+      line-height: 2rem;
   }
 {%- endstyle -%}
 
